@@ -48,3 +48,46 @@ sudo chmod -R u=rwX,go=rX /var/www/html
 ## Foto 2
 ### Editamos el archivo para añadir localmente el nombre que queremos que nos aparezca ya que nuestro navegador no tiene un dns que reconozca el nombre de la pagina.
 ![Foto 2](Foto2.png)
+
+#Instalar MYSQL server
+
+``` Bash
+Sudo apt isntall mysql-server
+```
+
+## Crear base de datos e usuario
+
+``` mysql  
+create database incidencias;
+CREATE USER 'incidencias'@'localhost' IDENTIFIED BY 'incidencias';
+system clear (Limpiar la pantalla)
+show databases;
+select user from mysql.user;
+
+
+ create table registro( 
+   id int auto_increment primary key, 
+   aula varchar(30), 
+   descripcion text, 
+   usuario varchar(20),  
+   estado varchar(30)
+   );
+
+INSERT INTO registro (aula, descripcion, usuario, estado)
+VALUES
+('Taller1', 'PC24 No arranca', 'usuario1', 'Pendiente'),
+('Taller5', 'PC21 No arranca', 'usuario2', 'Pendiente');
+
+```
+
+## Configutacion de GIT/GITHUB
+1. Crear repositorio local
+
+``` Bash
+Git init 
+git add .
+git commit -m "Comentario"
+
+```
+2. Crear cuenta github, crear repositorio en github
+3. Conectar repositorio local con remoto
