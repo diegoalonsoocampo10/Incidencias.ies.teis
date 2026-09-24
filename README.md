@@ -214,13 +214,14 @@ python app.py # Lanzar app
 deactivate #salir del entorno
 ```
 ## Ejemplo clase
+```python
 {    return " <h1>Incidencia recibida</h1> " \
     "<ul> " \
       " <li>Aula: " + aula +" </li> " \
       " <li>Usuario: " + usuario +" </li> " \
       " <li>Descripción: " + descripcion +" </li> " \
     "</ul> " }
-
+```
    ## Modificamos archivo app para anadir base de datos 
 
 ```python
