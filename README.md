@@ -128,12 +128,12 @@ pip freeze > requirements.txt
 
 ## Crear fichero .gitignore desde visualstudio en la carpeta del proyecyo
 ### Escribir unos comandos dentro del fichero
-
+```bash
 venv/
 _pycache__/
 *.pyc
 .env
-
+```
 ## Nuestra primera aplicacion Python/Flask
  ### Crear fichero app.py
 ```Python
