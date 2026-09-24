@@ -272,3 +272,6 @@ def crear_incidencia():
 if __name__== "__main__":
    app.run(debug=True)
    ```
+### Ahora al añadir datos en la pagina web de nuestro formulario se muestra en la base de datos
+#### Añadimos ( aula "105" descripcion "No funciona el equipo" usuario"a22diego" estado"Abierta (Que es el que va a estar por defecto"))
+![Foto 3](Foto3.png)

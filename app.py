@@ -33,7 +33,7 @@ def crear_incidencia():
    cursor = conexion.cursor()
 
    sql = """Insert into registro (aula, usuario, descripcion, estado) values (%s, %s, %s, %s)"""
-   valores= (aula, descripcion, usuario, "Abierta")
+   valores= (aula, usuario, descripcion, "Abierta")
    cursor.execute(sql, valores)
    conexion.commit()
    cursor.close()
