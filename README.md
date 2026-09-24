@@ -101,7 +101,7 @@ git push -u origin main
 git clone https://github.com/diegoalonsoocampo10/Incidencias.ies.teis
 O descargar el arcgivo ZIP desde github
 
-# Cogerte los cambios quie tienees en GitHub y traertelo para local
+# Cogerte los cambios quie tienes en GitHub y traertelo para local
 git pull 
 
 ## Instalar Python y componentes relacionados
